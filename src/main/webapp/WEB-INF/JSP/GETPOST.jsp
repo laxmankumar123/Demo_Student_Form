@@ -76,7 +76,7 @@ $(document).ready(
 						name : $("#bookName").val(),
 						email : $("#author").val()
 					}
-				console.log("-----postres"+formData);
+				console.log("------------postres"+formData);
 
 				$.ajax({
 					type: 'POST', // method

@@ -171,7 +171,7 @@
 			</tbody>
 		</table>
 
-		<a href="#" class="list_add">Add one row</a>
+		<a href="#" class="list_add">Add one row..</a>
 		<br class="clear" />
 
 		<div class="action_btn">

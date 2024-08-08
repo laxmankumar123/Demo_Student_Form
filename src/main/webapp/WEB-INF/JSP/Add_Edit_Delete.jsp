@@ -61,7 +61,7 @@ function ajaxGet(){
 						var jsonObject = JSON.parse(t);
 						
 						var html1 = "";
-						console.log("____pp");
+						console.log("______________pp");
 						for (var i = 0; i < jsonObject.length; i++) {
 							
 							console.log("--"+jsonObject[i]["id"]);
@@ -88,13 +88,13 @@ function ajaxGet(){
 }
 
 function ajaxEntity() {
-	console.log("------"+"kooo");
+	console.log("-------------"+"kooo");
 	var formData = {
 		id : $("#bookId").val(),
 		name : $("#bookName").val(),
 		email : $("#author").val()
 	}
-	console.log("-----postres" + formData);
+	console.log("------------postres" + formData);
 
 	$.ajax({
 		type : 'POST', // method
