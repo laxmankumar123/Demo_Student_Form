@@ -12,9 +12,9 @@ public class Connectionuntil {
         try {
             System.out.println("Before Connection");
             ds.setDriverClassName("org.postgresql.Driver");
-            ds.setUrl("jdbc:postgresql://localhost:5432/postgres");
+            ds.setUrl("jdbc:postgresql://localhost:5432/Test");
             ds.setUsername("postgres");
-            ds.setPassword("koli");
+            ds.setPassword("1234");
             return ds;
         }
         catch(Exception e){
