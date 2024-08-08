@@ -32,7 +32,7 @@ public class TestController {
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String newemployee1(Model model) {
 		List<Map<String, Object>> list = employee_data1.findAll();
-		System.out.println("--------for fecth all data" + list);
+		System.out.println("--------------------------------for fecth all data" + list);
 		model.addAttribute("messages", list);
         //return "Index_github";
 		return "index";
